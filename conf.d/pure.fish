@@ -39,6 +39,9 @@ _pure_set_default pure_color_ssh_user_root $pure_color_white
 # Virtualenv for Pyhon
 _pure_set_default pure_color_virtualenv $pure_color_green
 
+# AWS PROFILE
+_pure_set_default pure_color_aws $pure_color_red
+
 # Print current working directory at the beginning of prompt
 # true (default):   current directory, git, user@hostname (ssh-only), command duration
 # false:            user@hostname (ssh-only), current directory, git, command duration
