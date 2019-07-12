@@ -8,10 +8,10 @@ function _pure_prompt \
             echo "$pure_color_aws$mode"
         else if [ $AWS_PROFILE = 'affirm-dev' ]
             set --local mode "dev"
-            echo "$pure_color_aws dev"
+            echo "$pure_color_aws$mode"
         else if [ $AWS_PROFILE = 'affirm-prod' ]
             set --local mode "prod"
-            echo "$pure_color_aws prod"
+            echo "$pure_color_aws$mode"
         end
     end
 
