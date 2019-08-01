@@ -1,4 +1,4 @@
-function _pure_print_prompt
+function _pure_print_prompt_notrim
     set --local prompt
 
     for prompt_part in $argv
@@ -7,5 +7,5 @@ function _pure_print_prompt
         end
     end
 
-    echo (string trim -l $prompt)
+    echo $prompt
 end
